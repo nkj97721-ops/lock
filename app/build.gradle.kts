@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
-    implementation("dev.rikka.shizuku:api:13.1.5")
-    implementation("dev.rikka.shizuku:provider:13.1.5")
+    // 13.1.1 made Shizuku.newProcess inaccessible; 13.1.0 retains the public API used here.
+    implementation("dev.rikka.shizuku:api:13.1.0")
+    implementation("dev.rikka.shizuku:provider:13.1.0")
 }
