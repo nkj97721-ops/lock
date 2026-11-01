@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.locknow.app11020448"
-        minSdk = 23
+        minSdk = 26
         targetSdk = 35
         versionCode = 11020448
         versionName = "11020448"
@@ -32,4 +32,5 @@ android {
 
 dependencies {
     implementation("dev.rikka.shizuku:api:13.1.5")
+    implementation("dev.rikka.shizuku:provider:13.1.5")
 }
